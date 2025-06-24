@@ -1,7 +1,7 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 import './iconws.css'
 
-function iconws() {
+function FloatingIcon() {
   return (
 <div className='whatsapp__container'>
       <a href="https://wa.me/+584242611859" 
@@ -14,4 +14,4 @@ function iconws() {
   )
 }
 
-export default iconws
+export default FloatingIcon;
