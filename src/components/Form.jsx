@@ -5,9 +5,9 @@ import emailjs from '@emailjs/browser';
 function Form() {
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    e.target.reset(); // Reset the form after submission
+  const sendEmail = async (e) => {
+    await e.preventDefault();
+    
 
     emailjs.sendForm('service_512avmj', 'template_to5h3hn', form.current, {
         publicKey: 'lxJrCZ9Cpa4m6kiAX',
@@ -20,7 +20,9 @@ function Form() {
         (error) => {
           console.log('FAILED...', error.text);
         },
-      );}
+      );
+      await e.target.reset(); // Reset the form after submission
+  }
       // Estado para controlar la visibilidad del modal
         const [mostrarModal, setMostrarModal] = useState(false);
 
