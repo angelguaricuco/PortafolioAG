@@ -1,0 +1,47 @@
+.footer {
+	background-color: #282c34;
+	color: #efefef;
+	padding-bottom: 2rem;
+	}
+  .footer__social-links{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+.footer__title {
+				font-size: 1.5rem;
+        margin-bottom: 0;
+			}
+      .footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .footer__description{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 30px;
+      }
+      	.footer__copy {
+		text-align: center;
+		border-top: 1px solid #222;
+		padding-top: 2rem;
+    font-size: 0.9rem;
+	}
+  .copy_icon{
+    vertical-align: middle;
+    padding-bottom: 3px;
+    font-size: 0.9rem;
+    color: #efefef;
+    
+  }
+
+      @media screen and (max-width: 768px) {
+        .footer__description {
+          font-size: 0.9rem;
+        }
+        
+      }
