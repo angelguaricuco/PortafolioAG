@@ -25,6 +25,8 @@ border-radius: 20px 1px 20px 1px;
   .whatsapp__container {
     width: 70px;
     height: 70px;
+    border-radius: 15px 1px 15px 1px;
+
     background-color: #7373734d;
   }
   
