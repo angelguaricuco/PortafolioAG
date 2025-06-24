@@ -7,7 +7,7 @@ function Projects() {
 	<>
   {/* Primary project */}
 	  <div className='projects_card'>
-		<img src="../public/img/name2.png" alt="PokeDex" title="PokeDex" className='img'/>
+		<img src="../img/pokedex.png" alt="PokeDex" title="PokeDex" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°1- PokeDex</h3>
@@ -32,7 +32,7 @@ function Projects() {
 	  </div>
     {/* Second project */}
     <div className='projects_card'>
-		<img src="../public/img/appclimas.png" alt="App del Clima" title="App Clima" className='img'/>
+		<img src="../img/appclimas.png" alt="App del Clima" title="App Clima" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°2- App Clima</h3>
@@ -57,7 +57,7 @@ function Projects() {
 	  </div>
     {/* Third project */}
  <div className='projects_card'>
-		<img src="../public/img/rickandmortys.png" alt="Rick And Morty" title="App Clima" className='img'/>
+		<img src="../img/rickandmortys.png" alt="Rick And Morty" title="App Clima" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°3- Rick and Morty</h3>
@@ -83,7 +83,7 @@ function Projects() {
 
     {/* Fourth project*/}
     <div className='projects_card'>
-		<img src="../public/img/fortunecookiee.png" alt="Galleta de la Fortuna" title="App Clima" className='img'/>
+		<img src="../img/fortunecookiee.png" alt="Galleta de la Fortuna" title="App Clima" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°4- Galleta de la Fortuna</h3>
@@ -107,7 +107,7 @@ function Projects() {
 		</div>
 	  </div>
     <div className='projects_card'>
-		<img src="../public/img/primerportafolioo.png" alt="Primer portafolio" title="App Clima" className='img'/>
+		<img src="../img/primerportafolioo.png" alt="Primer portafolio" title="App Clima" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°5- Primer Portafolio</h3>
