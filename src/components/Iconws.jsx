@@ -1,7 +1,5 @@
-
 import { IoLogoWhatsapp } from "react-icons/io";
 import './iconws.css'
-import { div } from "framer-motion/client";
 function iconws() {
   return (
 <div className='whatsapp__container'>

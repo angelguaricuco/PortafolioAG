@@ -10,7 +10,7 @@ import {useEffect, useMemo, useState} from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Projects from './components/Projects';
-import Iconws from './components/iconws';
+import Iconws from './components/iconws.jsx';
 
 
 
@@ -96,7 +96,6 @@ function App() {
     </div>
     <Navbar />
 		<div className='whatsapp__icon'>
-
 			<Iconws />
 		</div>
 		
