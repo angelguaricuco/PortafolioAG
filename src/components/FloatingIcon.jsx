@@ -1,5 +1,5 @@
 import { IoLogoWhatsapp } from "react-icons/io";
-import './iconws.css'
+import './FloatingIcon.css'
 
 function FloatingIcon() {
   return (
@@ -8,7 +8,7 @@ function FloatingIcon() {
       target='_blank' 
       rel='noopener noreferrer'
       className='whatsapp__link2'>
-        <IoLogoWhatsapp className='icon2'/>
+        <IoLogoWhatsapp />
 </a>
 </div>
   )

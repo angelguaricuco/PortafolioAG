@@ -1,3 +1,4 @@
+import FloatingIcon from './components/FloatingIcon';
 import './App.css';
 import { GrLinkedin } from 'react-icons/gr';
 import { ImGithub } from 'react-icons/im';
@@ -10,9 +11,6 @@ import {useEffect, useMemo, useState} from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Projects from './components/Projects';
-import FloatingIcon from './components/FloatingIcon';
-
-
 
 
 
