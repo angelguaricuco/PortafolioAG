@@ -245,6 +245,12 @@ z-index: -1;
 	
 	
 }
+.whatsapp__icon{
+	  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 9999;
+}
 
 /* Media Queries for Responsive Design */
 

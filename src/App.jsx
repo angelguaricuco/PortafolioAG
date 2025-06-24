@@ -10,6 +10,7 @@ import {useEffect, useMemo, useState} from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Projects from './components/Projects';
+import Iconws from './components/iconws';
 
 
 
@@ -93,14 +94,18 @@ function App() {
         />
       )}
     </div>
-    <Navbar />
+    {/* <Navbar /> */}
+		<div className='whatsapp__icon'>
+
+			<Iconws />
+		</div>
+		
 			{/* <Header /> */}
 
 			<main className="portafolio__main">
 <section className="portafolio__intro" id='home'>
 					<div className="container">
 						
-
 					<p className="social__links">
 						<a
 							className="linkedin__link"
@@ -203,7 +208,6 @@ function App() {
 
         </section>
 			</main>
-
 			<Footer />
 		</>
 	);

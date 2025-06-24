@@ -1,0 +1,22 @@
+.whatsapp__link2{
+  color: #1eb656;
+  text-decoration: none;
+  font-size: 4em;
+  z-index: 1;
+}
+.whatsapp__link2:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+  color: #16aa4c;
+}
+.whatsapp__container{
+  display: flex;
+  justify-content: center;
+ background-color: #737373;
+ width: 90px;
+ height: 90px;
+border-radius: 20px 1px 20px 1px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
