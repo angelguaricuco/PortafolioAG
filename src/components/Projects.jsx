@@ -7,7 +7,7 @@ function Projects() {
 	<>
   {/* Primary project */}
 	  <div className='projects_card'>
-		<img src="../public/img/pokedex.png" alt="project 1" title="PokeDex" className='img'/>
+		<img src="../public/img/name2.png" alt="project 1" title="PokeDex" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°1- PokeDex</h3>
