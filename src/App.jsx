@@ -94,7 +94,7 @@ function App() {
         />
       )}
     </div>
-    {/* <Navbar /> */}
+    <Navbar />
 		<div className='whatsapp__icon'>
 
 			<Iconws />
