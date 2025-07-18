@@ -133,7 +133,7 @@ function Projects() {
 	  </div>
 
 		 <div className='projects_card'>
-		<img src="../public/img/fitnessgym.jpg" alt="project 1" title="App Clima" className='img'/>
+		<img src="../img/fitnessgym.jpg" alt="project 1" title="App Clima" className='img'/>
 	  
 		<div className="projects__info">
 		  <h3 className="projects__name">°6- ELIGYM Fitness</h3>
