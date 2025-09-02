@@ -12,8 +12,8 @@ function Navbar() {
 				</div>
 			<div className={`nav_items ${isOpen && "open"}`}>
         <a href="#home"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>INICIO</a>
-				<a href="#about-me"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>SOBRE MI</a>
-				<a href="#skills"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>TECNOLOGIAS</a>
+				<a href="#about-me"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>SOBRE MÍ</a>
+				<a href="#skills"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>TECNOLOGÍAS</a>
 				<a href="#projects"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>PROYECTOS</a>
         <a href="#contact"className={`nav_item ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>CONTACTO</a>
       </div>

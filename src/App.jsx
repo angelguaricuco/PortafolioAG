@@ -140,7 +140,7 @@ function App() {
 				</section>
 
 				<section className="portafolio__about" id='about-me'>
-					<h2 className="portafolio__subtitle2">Sobre mi</h2>
+					<h2 className="portafolio__subtitle2">Sobre mí</h2>
 					<div className="container_about">
 						<img
 							className="portafolio__image"
@@ -186,13 +186,7 @@ function App() {
 				</section>
 				<section className="portafolio__projects" id='projects'>
 					<span className="portafolio__projects__subtitle">Mis Proyectos</span>
-					<div className="portafolio_projects_container_description">
-						<p className="portafolio__projects__description">
-							Este es un portafolio de ejemplo para mostrar mis habilidades y
-							proyectos como desarrollador web. Aquí encontrarás información
-							sobre mí, mis proyectos y cómo contactarme.
-						</p>
-					</div>
+					
 					<div className="portafolio__projectss">
 						<Projects/>
 					</div>
